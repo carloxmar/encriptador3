@@ -1,0 +1,193 @@
+*{
+    
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+   
+}
+.imagendefondo{
+    background-image: url(imagenes/zyro-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    border: 5px solid #e608a3;
+}
+
+.logo{
+    padding-top: 10px;
+    margin: 80px;
+    width: 5%;
+    border-radius: 24px;
+    border: 5px solid white;
+   
+}
+
+main{
+    display: flex;
+    margin-top:0px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    border: 5px solid #e608a3;
+    border-radius: 24px;
+    margin-top: -20px;
+    text-transform: lowercase;
+}
+::placeholder{ 
+    color:#0A3871  ;
+   
+}
+   
+    .text-area:focus{
+        outline: none;
+    }
+.mensaje{
+ background: white;
+ background-image: url(imagenes/niñoconlupa3.png );
+ background-repeat:no-repeat;
+ border: 5px solid #e608a3;
+ border-radius: 24px;
+ color: #0A3871 ;
+ margin-left: 120px;
+ margin-top: -20px;
+ padding-left: 20px;
+ position: absolute;
+ 
+}
+.mensaje{
+    background-position: center
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.informacion{
+    margin-left: 50px;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+    
+}
+.btn-encriptar{
+    background-color: #e608a3;
+    border: 5px solid  darkblue ;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 180px;
+}
+.btn-encriptar:hover{
+
+    background: #e608a3 ;
+    box-shadow: 0 0 10px #e608a3, 0 0 15px #e608a3, 0 0 15px #e608a3 ;
+    transition-delay: 0.1s;
+    border: 1px solid #e608a3 ;
+    }
+.btn-desencriptar{
+    background-color: #e608a3;
+    border: 5px solid  darkblue ;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 67px;
+    width: 180px;
+}
+.btn-desencriptar:hover{
+
+    background: #e608a3 ;
+    box-shadow: 0 0 10px #e608a3, 0 0 15px #e608a3, 0 0 15px #e608a3 ;
+    transition-delay: 0.1s;
+    color: white;
+    border: 1px solid #e608a3 ;
+    }
+.btn-copiar{
+    background-color: #e608a3;
+    border: 5px solid  darkblue ;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 130px;
+    margin-top: 600px;
+    position: absolute;
+    width: 180px;
+
+}
+.btn-copiar:hover{
+
+    background: #e608a3 ;
+    box-shadow: 0 0 10px #e608a3, 0 0 15px #e608a3, 0 0 15px #e608a3 ;
+    transition-delay: 0.1s;
+    color: white;
+    border: 1px solid #e608a3 ;
+    }
+
+.btn-pegar{
+    background-color:  #e608a3;
+    border: 5px solid  darkblue ;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 67px;
+    width: 180px;
+    transition: 0.3s ease all;
+}
+.btn-pegar:hover{
+
+background: #e608a3 ;
+box-shadow: 0 0 10px #e608a3, 0 0 15px #e608a3, 0 0 15px #e608a3 ;
+transition-delay: 0.1s;
+border: 1px solid #e608a3 ;
+
+}
+footer{
+    display: flex;
+    background:#babfc4;
+    margin-top: 50px;
+    padding: 50px 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:  50px;
+}
+.oracle{
+    background: #babfc4;
+    width: 250px;
+    height: 80px;
+    margin-left: 200px;
+}
+.carlosmar{
+    background: #babfc4;
+    margin-left: 200px;
+    margin-top: 8px;
+
+}
+
+.redes{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 20px;
+   
+}
+.redes a{
+   margin-left: 20px;
+   color: black;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   border-radius: 50%;
+}
+.redes a:hover{
+    background-color:rgb(215, 20, 137);
+}

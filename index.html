@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  
+<div class="imagendefondo">
+        
+    <header>
+        <img class="logo" src="imagenes/logo alura azul.png" alt="logo de alura" >
+      
+    </header>
+    <main>
+         <section>
+         <textarea class="text-area"
+          cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+         <div>
+             <h6 class="informacion">&#128712;  Solo letras minúsculas y sin acentos</h6>
+       
+         </div>
+         <div class="botones">
+             <button class="btn-encriptar"  onmousedown="sonido.play()" onclick="btnEncriptar()" > Encriptar</button>
+             <button class="btn-desencriptar"onclick="btnDesencriptar()" onmousedown="sonido.play()" >Desencriptar</button>
+             <button class="btn-pegar" id="btn-pegar" onclick="btnPegar()" onmousedown="sonido.play()" >pegar</button>
+             
+            
+        </div>
+     </section>
+      <section>
+        
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar()" onmousedown="sonido.play()">copiar</button>
+
+                    
+                </div>
+                
+     </section>
+
+
+    </main>
+    <script src="index.js"></script>
+
+
+  <footer>
+  <img src="imagenes/aluraoracle-removebg-preview (1).png" class="oracle">
+  <p class="carlosmar">&#169; diseño carlosmar</p>
+  <div class="redes">
+    <a href="https://github.com/carloxmar"><i class="fab fa-github"  > </i></a>
+    <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/watch?v=IoWfbDirJcc"><i class="fab fa-youtube"></i></a>
+
+  </div>
+  </footer>
+</div >
+   
+</body>
+</html>
